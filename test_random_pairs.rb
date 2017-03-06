@@ -4,7 +4,8 @@ require_relative "random_pairs.rb"
 class TestRandomPairs < Minitest::Test
 
 	def test_returns_array
-		assert_equal([],([]))
+		array = []
+		assert_equal(0, random(array))
 	end
 
 
