@@ -1,5 +1,9 @@
 def random(array)
-array.count
+	array.count
+end
+
+def rpairs(array)
+array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
 end
 
 

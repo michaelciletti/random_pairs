@@ -8,6 +8,10 @@ class TestRandomPairs < Minitest::Test
 		assert_equal(0, random(array))
 	end
 
+	def test_returns_populated_array
+		array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
+			assert_equal(["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"], rpairs(array))
+	end
 
 
 end
