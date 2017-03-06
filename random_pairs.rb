@@ -4,8 +4,7 @@ end
 
 def rpairs(array)
 
-array.shuffle!
-
+array.shuffle.each_slice(2).to_a
 end
 
 classmates = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
