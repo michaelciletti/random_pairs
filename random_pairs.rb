@@ -5,10 +5,11 @@ end
 def rpairs(array)
 
 array.shuffle!
+
 end
 
 classmates = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
 
-rpairs(classmates)
+print rpairs(classmates)
 
 
