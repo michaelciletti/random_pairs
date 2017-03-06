@@ -13,5 +13,10 @@ class TestRandomPairs < Minitest::Test
 			assert_equal(["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"], rpairs(array))
 	end
 
+	def test_returns_populated_array_randomized
+		array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
+			results = array.shuffle
+			assert_equal(results, rpairs(array))
+	end
 
 end

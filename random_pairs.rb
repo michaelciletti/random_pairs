@@ -3,7 +3,12 @@ def random(array)
 end
 
 def rpairs(array)
-array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
+
+array.shuffle!
 end
+
+classmates = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
+
+rpairs(classmates)
 
 
