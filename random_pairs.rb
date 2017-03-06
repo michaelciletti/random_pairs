@@ -1,3 +1,3 @@
-def random
-1
+def random(array)
+[]
 end

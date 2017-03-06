@@ -3,9 +3,10 @@ require_relative "random_pairs.rb"
 
 class TestRandomPairs < Minitest::Test
 
-	def test_1_returns
-		
-		assert_equal(1,(1))
+	def test_returns_array
+		assert_equal([],([]))
 	end
+
+
 
 end
