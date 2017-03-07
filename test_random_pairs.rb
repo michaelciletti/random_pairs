@@ -15,7 +15,12 @@ class TestRandomPairs < Minitest::Test
 
 	def test_returns_populated_array_randomized
 		array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
-		assert_equal(3, shuffled_names(array)))
+		assert_equal(4, shuffled_names(array))
+	end
+
+	def test_returns_populated_array_randomized_adds_extra_to_group
+		array = ["Mike","Lisa","Andrew","Khalifa","Cummie", "Jayvon", "Takir"]
+		assert_equal(3, shuffled_names(array))
 	end
 
 end
